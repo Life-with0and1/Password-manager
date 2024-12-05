@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.auth-input {
+  border-radius: 4px;
+  background-color: rgb(243, 238, 238);
+  outline: none;
+  color: black;
+  padding: 5px 10px;
+  font-weight: 400;
+}
+
+.auth-input::placeholder {
+  color: gray;
+}
+
+.home-input {
+  width: 50%;
+  border-radius: 4px;
+  background-color: rgb(243, 238, 238);
+  outline: none;
+  color: black;
+  padding: 5px 10px;
+  font-weight: 400;
+}
+
+.home-input::placeholder {
+  color: gray;
+}
+
+.cred-input {
+  max-width: 180px;
+  border-radius: 4px;
+  background-color: rgb(243, 238, 238);
+  outline: none;
+  color: black;
+  background-color: rgb(77, 77, 77);
+  padding: 5px 10px;
+  font-weight: 400;
+}
+
+.auth-input::placeholder {
+  color: gray;
+}
+
+.update-input {
+  width: 250px;
+  border-radius: 4px;
+  background-color: rgb(243, 238, 238);
+  outline: none;
+  color: black;
+  padding: 8px 12px;
+  font-weight: 400;
+}
+
+.update-input::placeholder {
+  color: gray;
+}
