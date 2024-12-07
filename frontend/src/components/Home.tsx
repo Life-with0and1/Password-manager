@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 import axios from "axios";
 
 const Home = () => {
-  const url = "http://localhost:4000/api/credential";
+  const url = "https://pass-store-backend.onrender.com/api/credential";
   const [credentils, setCredentials] = useState([]);
 
   const fetchCredentials = async () => {
