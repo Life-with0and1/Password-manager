@@ -14,7 +14,7 @@ const Update = ({
   cred: string;
   id: string;
   url: string;
-  setShowUpdate: Boolean;
+  setShowUpdate: React.Dispatch<React.SetStateAction<boolean>>;
   fetchCredentials: () => void;
 }) => {
   const [updateCred, setUpdateCred] = useState(cred);
