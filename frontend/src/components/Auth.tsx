@@ -16,7 +16,7 @@ const Auth = () => {
       return toast.error("Password must be more than of 5 character");
     }
     if (auth == "login") {
-      const response = await fetch("https://pass-store-backend.onrender.com/api/login", {
+      const response = await fetch("https://pass-manager-backend.onrender.com/api/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -32,7 +32,7 @@ const Auth = () => {
         toast.error(responseData.message);
       }
     } else {
-      const response = await fetch("https://pass-store-backend.onrender.com/api/register", {
+      const response = await fetch("https://pass-manager-backend.onrender.com/api/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
